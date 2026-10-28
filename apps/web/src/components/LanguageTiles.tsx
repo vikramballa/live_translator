@@ -24,14 +24,22 @@ export function LanguageTiles({ value, onChange, disabled = [] }: Props) {
             lang={lang}
             onClick={() => onChange(lang)}
             className={[
-              "flex min-h-24 flex-col items-center justify-center rounded-2xl border-2 px-3 py-4 transition",
-              "focus-visible:outline-4 focus-visible:outline-brand-500",
+              "relative flex min-h-24 flex-col items-center justify-center rounded-2xl border-2 px-3 py-4 transition active:scale-[0.98]",
+              "focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-brand-500",
               selected
                 ? "border-brand-600 bg-brand-50 text-brand-800 shadow-md dark:bg-brand-800/30 dark:text-brand-100"
                 : "border-[var(--line)] bg-[var(--surface)] hover:border-brand-500",
               off ? "cursor-not-allowed opacity-35" : "",
             ].join(" ")}
           >
+            {selected && (
+              <span
+                aria-hidden
+                className="absolute top-2 right-2 grid size-6 place-items-center rounded-full bg-brand-600 text-sm font-bold text-white"
+              >
+                ✓
+              </span>
+            )}
             <span className="text-indic text-3xl font-semibold">{info.native}</span>
             {info.native !== info.name && (
               <span className="mt-1 text-sm text-[var(--muted)]">{info.name}</span>

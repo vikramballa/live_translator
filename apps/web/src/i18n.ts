@@ -48,6 +48,18 @@ const en = {
   changeLanguage: "Change",
   headphonesTip: "Tip: use earphones for the best result.",
   notHeard: "Sorry, that was not clear.",
+  reconnecting: "Connection lost. Reconnecting…",
+  connectFailed: "Could not connect to the call. Check your internet and try again.",
+  tryAgain: "Try again",
+  rejoin: "Rejoin the call",
+  readyHint: "You're connected. Speak normally and pause after each sentence.",
+  askSent: "Asked them to say it again",
+  confirmEnd: "Tap again to end",
+  howTitle: "How it works",
+  step1: "Choose the language you speak",
+  step2: "Send the link to the other person",
+  step3: "Talk — each of you hears your own language",
+  invited: "You have been invited to a call",
 };
 
 export type Strings = typeof en;
@@ -96,6 +108,18 @@ const te: Strings = {
   changeLanguage: "మార్చు",
   headphonesTip: "చిట్కా: మంచి ఫలితం కోసం ఇయర్‌ఫోన్స్ వాడండి.",
   notHeard: "క్షమించండి, స్పష్టంగా వినిపించలేదు.",
+  reconnecting: "కనెక్షన్ పోయింది. మళ్ళీ కలుపుతున్నాం…",
+  connectFailed: "కాల్‌కు కనెక్ట్ కాలేకపోయాం. ఇంటర్నెట్ చూసి మళ్ళీ ప్రయత్నించండి.",
+  tryAgain: "మళ్ళీ ప్రయత్నించండి",
+  rejoin: "కాల్‌లో మళ్ళీ చేరండి",
+  readyHint: "కనెక్ట్ అయ్యారు. మామూలుగా మాట్లాడండి, ప్రతి వాక్యం తర్వాత కొంచెం ఆగండి.",
+  askSent: "మళ్ళీ చెప్పమని అడిగాం",
+  confirmEnd: "ముగించడానికి మళ్ళీ నొక్కండి",
+  howTitle: "ఇది ఎలా పనిచేస్తుంది",
+  step1: "మీరు మాట్లాడే భాషను ఎంచుకోండి",
+  step2: "లింక్‌ను అవతలి వ్యక్తికి పంపండి",
+  step3: "మాట్లాడండి — ఎవరి భాషలో వారు వింటారు",
+  invited: "మిమ్మల్ని కాల్‌కు ఆహ్వానించారు",
 };
 
 const hi: Strings = {
@@ -142,6 +166,18 @@ const hi: Strings = {
   changeLanguage: "बदलें",
   headphonesTip: "सुझाव: अच्छे नतीजे के लिए ईयरफ़ोन लगाएँ।",
   notHeard: "माफ़ कीजिए, साफ़ सुनाई नहीं दिया।",
+  reconnecting: "कनेक्शन टूट गया। फिर से जोड़ रहे हैं…",
+  connectFailed: "कॉल से जुड़ नहीं पाए। इंटरनेट जाँचें और फिर से कोशिश करें।",
+  tryAgain: "फिर से कोशिश करें",
+  rejoin: "कॉल में फिर से जुड़ें",
+  readyHint: "आप जुड़ गए हैं। आराम से बोलिए और हर वाक्य के बाद थोड़ा रुकिए।",
+  askSent: "उनसे फिर से कहने को कहा गया",
+  confirmEnd: "समाप्त करने के लिए फिर से दबाएँ",
+  howTitle: "यह कैसे काम करता है",
+  step1: "वह भाषा चुनें जो आप बोलते हैं",
+  step2: "लिंक दूसरे व्यक्ति को भेजें",
+  step3: "बात करें — हर कोई अपनी भाषा में सुनता है",
+  invited: "आपको एक कॉल में बुलाया गया है",
 };
 
 const zh: Strings = {
@@ -188,6 +224,18 @@ const zh: Strings = {
   changeLanguage: "更改",
   headphonesTip: "提示：戴上耳机效果最好。",
   notHeard: "抱歉，没有听清楚。",
+  reconnecting: "连接中断，正在重新连接…",
+  connectFailed: "无法连接到通话。请检查网络后重试。",
+  tryAgain: "重试",
+  rejoin: "重新加入通话",
+  readyHint: "已连接。请正常说话，每句话后稍作停顿。",
+  askSent: "已请对方再说一遍",
+  confirmEnd: "再按一次结束通话",
+  howTitle: "使用方法",
+  step1: "选择你说的语言",
+  step2: "把链接发给对方",
+  step3: "开始说话——双方都听到自己的语言",
+  invited: "有人邀请你加入通话",
 };
 
 export const STRINGS: Record<Lang, Strings> = { en, te, hi, zh };

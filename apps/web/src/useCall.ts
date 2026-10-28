@@ -213,8 +213,24 @@ export function useCall(join: JoinResponse | null, originalVolume: number) {
     const room = roomRef.current;
     if (!room) return;
     const wasOn = room.localParticipant.isMicrophoneEnabled;
-    await room.localParticipant.setMicrophoneEnabled(!wasOn);
-    patch(() => ({ muted: wasOn }));
+    try {
+      await room.localParticipant.setMicrophoneEnabled(!wasOn);
+      patch(() => ({ muted: wasOn }));
+    } catch {
+      patch(() => ({ connection: "mic_denied" }));
+    }
+  }, [patch]);
+
+  /** Ask for the microphone again, e.g. after the person allowed it in settings. */
+  const retryMic = useCallback(async () => {
+    const room = roomRef.current;
+    if (!room) return;
+    try {
+      await room.localParticipant.setMicrophoneEnabled(true);
+      patch(() => ({ connection: "connected", muted: false }));
+    } catch {
+      patch(() => ({ connection: "mic_denied" }));
+    }
   }, [patch]);
 
   const leave = useCallback(() => {
@@ -224,7 +240,34 @@ export function useCall(join: JoinResponse | null, originalVolume: number) {
 
   const dismissNotice = useCallback(() => patch(() => ({ notice: null })), [patch]);
 
-  return { state, send, toggleMute, leave, dismissNotice };
+  // Keep the screen on during a call so captions stay readable.
+  const live = state.connection !== "ended" && state.connection !== "error";
+  useEffect(() => {
+    if (!live || !("wakeLock" in navigator)) return;
+    let lock: WakeLockSentinel | null = null;
+    let cancelled = false;
+    const acquire = () => {
+      if (document.visibilityState !== "visible") return;
+      navigator.wakeLock
+        .request("screen")
+        .then((l) => {
+          if (cancelled) void l.release();
+          else lock = l;
+        })
+        .catch(() => {
+          /* not allowed (battery saver, iframe): the screen may dim */
+        });
+    };
+    acquire();
+    document.addEventListener("visibilitychange", acquire);
+    return () => {
+      cancelled = true;
+      document.removeEventListener("visibilitychange", acquire);
+      void lock?.release();
+    };
+  }, [live]);
+
+  return { state, send, toggleMute, retryMic, leave, dismissNotice };
 }
 
 function handleEvent(
