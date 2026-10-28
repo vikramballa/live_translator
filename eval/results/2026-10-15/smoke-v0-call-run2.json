@@ -1,0 +1,1737 @@
+[
+ {
+  "id": "te01",
+  "src": "te",
+  "tgt": "en",
+  "said": "నమస్కారం, మీరు ఎలా ఉన్నారు?",
+  "gloss": "Hello, how are you?",
+  "heard": "నమస్కారం. మీరు ఎలా ఉన్నారు?",
+  "translation": "Hello. How are u?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1465,
+  "error": null
+ },
+ {
+  "id": "te02",
+  "src": "te",
+  "tgt": "en",
+  "said": "ఈ బియ్యం ధర కిలోకి యాభై రూపాయలు.",
+  "gloss": "This rice costs 50 rupees per kilo.",
+  "heard": "ఈ బియ్యం ధర కిలోకి 50 రూపాయలు.",
+  "translation": "The price of this rice is Rs 50 per kg.",
+  "flags": [],
+  "facts": [
+   "₹50"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "50"
+  ],
+  "numbers_heard": [
+   "50"
+  ],
+  "numbers_kept": [
+   "50"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1902,
+  "error": null
+ },
+ {
+  "id": "te03",
+  "src": "te",
+  "tgt": "en",
+  "said": "నాకు మూడు కిలోల టమోటాలు కావాలి.",
+  "gloss": "I need 3 kilos of tomatoes.",
+  "heard": "నాకు 3 కిలోల టమోటాలు కావాలి.",
+  "translation": "I want 3 kg of tomatoes.",
+  "flags": [],
+  "facts": [
+   "3 kg"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 5,
+  "numbers_expected": [
+   "3"
+  ],
+  "numbers_heard": [
+   "3"
+  ],
+  "numbers_kept": [
+   "3"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1646,
+  "error": null
+ },
+ {
+  "id": "te04",
+  "src": "te",
+  "tgt": "en",
+  "said": "మొత్తం రెండు వేల ఐదు వందల రూపాయలు అయింది.",
+  "gloss": "The total came to 2,500 rupees.",
+  "heard": "మొత్తం 2500 రూపాయలు అయి్యింది.",
+  "translation": "The total has become 2500 rupees.",
+  "flags": [],
+  "facts": [
+   "₹2,500"
+  ],
+  "asr_edits": 1,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "2500"
+  ],
+  "numbers_heard": [
+   "2500"
+  ],
+  "numbers_kept": [
+   "2500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1920,
+  "error": null
+ },
+ {
+  "id": "te05",
+  "src": "te",
+  "tgt": "en",
+  "said": "నేను రేపు రాను.",
+  "gloss": "I will not come tomorrow.",
+  "heard": "నేను రేపు రాను.",
+  "translation": "I'm not coming tomorrow.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 3,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1519,
+  "error": null
+ },
+ {
+  "id": "te06",
+  "src": "te",
+  "tgt": "en",
+  "said": "ఈ ధరకు నేను అమ్మను.",
+  "gloss": "I will not sell at this price.",
+  "heard": "ఈ ధరకు నేను అమ్మను.",
+  "translation": "I won't sell at this price.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1581,
+  "error": null
+ },
+ {
+  "id": "te07",
+  "src": "te",
+  "tgt": "en",
+  "said": "నా ఫోన్ నంబర్ తొమ్మిది ఎనిమిది నాలుగు ఎనిమిది సున్నా రెండు రెండు మూడు మూడు ఎనిమిది.",
+  "gloss": "My phone number is 98480 22338.",
+  "heard": "నా ఫోన్ నంబర్ 9848022338.",
+  "translation": "My phone number is 9848022338.",
+  "flags": [],
+  "facts": [
+   "98480 22338"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "9848022338"
+  ],
+  "numbers_heard": [
+   "9848022338"
+  ],
+  "numbers_kept": [
+   "9848022338"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2012,
+  "error": null
+ },
+ {
+  "id": "te08",
+  "src": "te",
+  "tgt": "en",
+  "said": "సరుకు సోమవారం సాయంత్రం ఐదు గంటలకు వస్తుంది.",
+  "gloss": "The goods arrive on Monday at 5 in the evening.",
+  "heard": "సరుకు సోమవారం సాయంత్రం 5 గంటలకు వస్తుంది.",
+  "translation": "The consignment arrives at 5 pm on Monday.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "5"
+  ],
+  "numbers_heard": [
+   "5"
+  ],
+  "numbers_kept": [
+   "5"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1828,
+  "error": null
+ },
+ {
+  "id": "te09",
+  "src": "te",
+  "tgt": "en",
+  "said": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతాది డెలివరీ తర్వాత ఇవ్వండి.",
+  "gloss": "Send half the money first, give the rest after delivery.",
+  "heard": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతాది డెలివరీ తరువాత ఇవ్వండి.",
+  "translation": "You send half the money first, and give the rest after delivery.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 9,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1555,
+  "error": null
+ },
+ {
+  "id": "te10",
+  "src": "te",
+  "tgt": "en",
+  "said": "ఈ నెల పదిహేనో తేదీ లోపు డబ్బు చెల్లించాలి.",
+  "gloss": "The money must be paid before the 15th of this month.",
+  "heard": "ఈ నెల 15వ తేదీ లోపుడబ్బు చెల్లించాలి.",
+  "translation": "Payments must be made by the 15th of this month.",
+  "flags": [],
+  "facts": [
+   "15"
+  ],
+  "asr_edits": 2,
+  "asr_ref_len": 7,
+  "numbers_expected": [
+   "15"
+  ],
+  "numbers_heard": [
+   "15"
+  ],
+  "numbers_kept": [
+   "15"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1820,
+  "error": null
+ },
+ {
+  "id": "te11",
+  "src": "te",
+  "tgt": "en",
+  "said": "మీకు ఎన్ని బస్తాలు కావాలి?",
+  "gloss": "How many bags do you need?",
+  "heard": "మీకు ఎన్ని బస్తాలు కావాలి?",
+  "translation": "How many bags do you need?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1529,
+  "error": null
+ },
+ {
+  "id": "te12",
+  "src": "te",
+  "tgt": "en",
+  "said": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.",
+  "gloss": "I did not like that colour, show me another one.",
+  "heard": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.",
+  "translation": "I don't like that color, show me a different color.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1573,
+  "error": null
+ },
+ {
+  "id": "te01",
+  "src": "te",
+  "tgt": "hi",
+  "said": "నమస్కారం, మీరు ఎలా ఉన్నారు?",
+  "gloss": "Hello, how are you?",
+  "heard": "నమస్కారం. మీరు ఎలా ఉన్నారు?",
+  "translation": "नमस्ते। आप कैसे हैं?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1642,
+  "error": null
+ },
+ {
+  "id": "te02",
+  "src": "te",
+  "tgt": "hi",
+  "said": "ఈ బియ్యం ధర కిలోకి యాభై రూపాయలు.",
+  "gloss": "This rice costs 50 rupees per kilo.",
+  "heard": "ఈ బియ్యం ధర కిలోకి 50 రూపాయలు.",
+  "translation": "इस चावल की कीमत 50 रुपये प्रति किलोग्राम है।",
+  "flags": [],
+  "facts": [
+   "₹50"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "50"
+  ],
+  "numbers_heard": [
+   "50"
+  ],
+  "numbers_kept": [
+   "50"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2029,
+  "error": null
+ },
+ {
+  "id": "te03",
+  "src": "te",
+  "tgt": "hi",
+  "said": "నాకు మూడు కిలోల టమోటాలు కావాలి.",
+  "gloss": "I need 3 kilos of tomatoes.",
+  "heard": "నాకు 3 కిలోల టమోటాలు కావాలి.",
+  "translation": "मुझे 3 किलो टमाटर चाहिए।",
+  "flags": [],
+  "facts": [
+   "3 kg"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 5,
+  "numbers_expected": [
+   "3"
+  ],
+  "numbers_heard": [
+   "3"
+  ],
+  "numbers_kept": [
+   "3"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1854,
+  "error": null
+ },
+ {
+  "id": "te04",
+  "src": "te",
+  "tgt": "hi",
+  "said": "మొత్తం రెండు వేల ఐదు వందల రూపాయలు అయింది.",
+  "gloss": "The total came to 2,500 rupees.",
+  "heard": "మొత్తం 2500 రూపాయలు అయ్యింది.",
+  "translation": "कुल मिलाकर 2,500 रुपये।",
+  "flags": [],
+  "facts": [
+   "₹2,500"
+  ],
+  "asr_edits": 1,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "2500"
+  ],
+  "numbers_heard": [
+   "2500"
+  ],
+  "numbers_kept": [
+   "2500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1794,
+  "error": null
+ },
+ {
+  "id": "te05",
+  "src": "te",
+  "tgt": "hi",
+  "said": "నేను రేపు రాను.",
+  "gloss": "I will not come tomorrow.",
+  "heard": "నేను రేపు రాను.",
+  "translation": "मैं कल नहीं जाऊंगा।",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 3,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1610,
+  "error": null
+ },
+ {
+  "id": "te06",
+  "src": "te",
+  "tgt": "hi",
+  "said": "ఈ ధరకు నేను అమ్మను.",
+  "gloss": "I will not sell at this price.",
+  "heard": "ఈ ధరకు నేను అమ్మను.",
+  "translation": "मैं इस कीमत पर नहीं बेचूंगा।",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1691,
+  "error": null
+ },
+ {
+  "id": "te07",
+  "src": "te",
+  "tgt": "hi",
+  "said": "నా ఫోన్ నంబర్ తొమ్మిది ఎనిమిది నాలుగు ఎనిమిది సున్నా రెండు రెండు మూడు మూడు ఎనిమిది.",
+  "gloss": "My phone number is 98480 22338.",
+  "heard": "నా ఫోన్ నంబర్ 9848022338.",
+  "translation": "मेरा फोन नंबर 9848022338 है।",
+  "flags": [],
+  "facts": [
+   "98480 22338"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "9848022338"
+  ],
+  "numbers_heard": [
+   "9848022338"
+  ],
+  "numbers_kept": [
+   "9848022338"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2274,
+  "error": null
+ },
+ {
+  "id": "te08",
+  "src": "te",
+  "tgt": "hi",
+  "said": "సరుకు సోమవారం సాయంత్రం ఐదు గంటలకు వస్తుంది.",
+  "gloss": "The goods arrive on Monday at 5 in the evening.",
+  "heard": "సరుకు సోమవారం సాయంత్రం 5 గంటలకు వస్తుంది.",
+  "translation": "माल सोमवार को शाम 5 बजे आएगा।",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "5"
+  ],
+  "numbers_heard": [
+   "5"
+  ],
+  "numbers_kept": [
+   "5"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1930,
+  "error": null
+ },
+ {
+  "id": "te09",
+  "src": "te",
+  "tgt": "hi",
+  "said": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతాది డెలివరీ తర్వాత ఇవ్వండి.",
+  "gloss": "Send half the money first, give the rest after delivery.",
+  "heard": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతా అది డెలివరీ తరువాత ఇవ్వండి.",
+  "translation": "आप पहले आधे पैसे भेजते हैं और बाकी डिलीवरी के बाद देते हैं।",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 3,
+  "asr_ref_len": 9,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2369,
+  "error": null
+ },
+ {
+  "id": "te10",
+  "src": "te",
+  "tgt": "hi",
+  "said": "ఈ నెల పదిహేనో తేదీ లోపు డబ్బు చెల్లించాలి.",
+  "gloss": "The money must be paid before the 15th of this month.",
+  "heard": "ఈ నెల 15వ తేదీ లోపుడబ్బు చెల్లించాలి.",
+  "translation": "इस महीने की 15 तारीख से पहले भुगतान किया जाना है।",
+  "flags": [],
+  "facts": [
+   "15"
+  ],
+  "asr_edits": 2,
+  "asr_ref_len": 7,
+  "numbers_expected": [
+   "15"
+  ],
+  "numbers_heard": [
+   "15"
+  ],
+  "numbers_kept": [
+   "15"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2244,
+  "error": null
+ },
+ {
+  "id": "te11",
+  "src": "te",
+  "tgt": "hi",
+  "said": "మీకు ఎన్ని బస్తాలు కావాలి?",
+  "gloss": "How many bags do you need?",
+  "heard": "మీకు ఎన్ని బస్తాలు కావాలి?",
+  "translation": "आपको कितने थैले चाहिए?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1603,
+  "error": null
+ },
+ {
+  "id": "te12",
+  "src": "te",
+  "tgt": "hi",
+  "said": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.",
+  "gloss": "I did not like that colour, show me another one.",
+  "heard": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.",
+  "translation": "मुझे वह रंग पसंद नहीं आया, एक अलग रंग दिखाएँ।",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 2163,
+  "error": null
+ },
+ {
+  "id": "te01",
+  "src": "te",
+  "tgt": "zh",
+  "said": "నమస్కారం, మీరు ఎలా ఉన్నారు?",
+  "gloss": "Hello, how are you?",
+  "heard": "నమస్కారం. మీరు ఎలా ఉన్నారు?",
+  "translation": "哈啰。你怎么样?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1913,
+  "error": null
+ },
+ {
+  "id": "te02",
+  "src": "te",
+  "tgt": "zh",
+  "said": "ఈ బియ్యం ధర కిలోకి యాభై రూపాయలు.",
+  "gloss": "This rice costs 50 rupees per kilo.",
+  "heard": "ఈ బియ్యం ధర కిలోకి 50 రూపాయలు.",
+  "translation": "这米的价格是每公斤50卢比。",
+  "flags": [],
+  "facts": [
+   "₹50"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "50"
+  ],
+  "numbers_heard": [
+   "50"
+  ],
+  "numbers_kept": [
+   "50"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2249,
+  "error": null
+ },
+ {
+  "id": "te03",
+  "src": "te",
+  "tgt": "zh",
+  "said": "నాకు మూడు కిలోల టమోటాలు కావాలి.",
+  "gloss": "I need 3 kilos of tomatoes.",
+  "heard": "నాకు 3 కిలోల టమోటాలు కావాలి.",
+  "translation": "我要三公斤西红柿。",
+  "flags": [],
+  "facts": [
+   "3 kg"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 5,
+  "numbers_expected": [
+   "3"
+  ],
+  "numbers_heard": [
+   "3"
+  ],
+  "numbers_kept": [
+   "3"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2040,
+  "error": null
+ },
+ {
+  "id": "te04",
+  "src": "te",
+  "tgt": "zh",
+  "said": "మొత్తం రెండు వేల ఐదు వందల రూపాయలు అయింది.",
+  "gloss": "The total came to 2,500 rupees.",
+  "heard": "మొత్తం 2500 రూపాయలు అయి్యింది.",
+  "translation": "总数已达2500卢比。",
+  "flags": [],
+  "facts": [
+   "₹2,500"
+  ],
+  "asr_edits": 1,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "2500"
+  ],
+  "numbers_heard": [
+   "2500"
+  ],
+  "numbers_kept": [
+   "2500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2112,
+  "error": null
+ },
+ {
+  "id": "te05",
+  "src": "te",
+  "tgt": "zh",
+  "said": "నేను రేపు రాను.",
+  "gloss": "I will not come tomorrow.",
+  "heard": "నేను రేపు రాను.",
+  "translation": "我明天不来了。",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 3,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1738,
+  "error": null
+ },
+ {
+  "id": "te06",
+  "src": "te",
+  "tgt": "zh",
+  "said": "ఈ ధరకు నేను అమ్మను.",
+  "gloss": "I will not sell at this price.",
+  "heard": "ఈ ధరకు నేను అమ్మను.",
+  "translation": "我不会这么卖的。",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1904,
+  "error": null
+ },
+ {
+  "id": "te07",
+  "src": "te",
+  "tgt": "zh",
+  "said": "నా ఫోన్ నంబర్ తొమ్మిది ఎనిమిది నాలుగు ఎనిమిది సున్నా రెండు రెండు మూడు మూడు ఎనిమిది.",
+  "gloss": "My phone number is 98480 22338.",
+  "heard": "నా ఫోన్ నంబర్ 9848022338.",
+  "translation": "我的电话号码是9848022338。",
+  "flags": [
+   "number_repaired"
+  ],
+  "facts": [
+   "98480 22338"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "9848022338"
+  ],
+  "numbers_heard": [
+   "9848022338"
+  ],
+  "numbers_kept": [
+   "9848022338"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2419,
+  "error": null
+ },
+ {
+  "id": "te08",
+  "src": "te",
+  "tgt": "zh",
+  "said": "సరుకు సోమవారం సాయంత్రం ఐదు గంటలకు వస్తుంది.",
+  "gloss": "The goods arrive on Monday at 5 in the evening.",
+  "heard": "సరుకు సోమవారం సాయంత్రం 5 గంటలకు వస్తుంది.",
+  "translation": "货物于星期一下午5时抵达。",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "5"
+  ],
+  "numbers_heard": [
+   "5"
+  ],
+  "numbers_kept": [
+   "5"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2269,
+  "error": null
+ },
+ {
+  "id": "te09",
+  "src": "te",
+  "tgt": "zh",
+  "said": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతాది డెలివరీ తర్వాత ఇవ్వండి.",
+  "gloss": "Send half the money first, give the rest after delivery.",
+  "heard": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతాది డెలివరీ తర్వాత ఇవ్వండి.",
+  "translation": "你先把一半的钱寄出去 其余的在交货后还给你。",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 9,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2769,
+  "error": null
+ },
+ {
+  "id": "te10",
+  "src": "te",
+  "tgt": "zh",
+  "said": "ఈ నెల పదిహేనో తేదీ లోపు డబ్బు చెల్లించాలి.",
+  "gloss": "The money must be paid before the 15th of this month.",
+  "heard": "ఈ నెల 15వ తేదీలోకు డబ్బు చెల్లించాలి.",
+  "translation": "必须在本月15日之前支付。",
+  "flags": [],
+  "facts": [
+   "15"
+  ],
+  "asr_edits": 2,
+  "asr_ref_len": 7,
+  "numbers_expected": [
+   "15"
+  ],
+  "numbers_heard": [
+   "15"
+  ],
+  "numbers_kept": [
+   "15"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2134,
+  "error": null
+ },
+ {
+  "id": "te11",
+  "src": "te",
+  "tgt": "zh",
+  "said": "మీకు ఎన్ని బస్తాలు కావాలి?",
+  "gloss": "How many bags do you need?",
+  "heard": "మీకు ఎన్ని బస్తాలు కావాలి?",
+  "translation": "你需要几个包?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1836,
+  "error": null
+ },
+ {
+  "id": "te12",
+  "src": "te",
+  "tgt": "zh",
+  "said": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.",
+  "gloss": "I did not like that colour, show me another one.",
+  "heard": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.",
+  "translation": "我不喜欢那种颜色,给我看不同的颜色。",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 2429,
+  "error": null
+ },
+ {
+  "id": "en01",
+  "src": "en",
+  "tgt": "te",
+  "said": "Good morning, how is your family?",
+  "gloss": "Good morning, how is your family?",
+  "heard": "Good morning, how is your family?",
+  "translation": "గుడ్ మార్నింగ్, మీ కుటుంబం ఎలా ఉంది?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1070,
+  "error": null
+ },
+ {
+  "id": "en02",
+  "src": "en",
+  "tgt": "te",
+  "said": "The price is five hundred rupees per kilo.",
+  "gloss": "The price is 500 rupees per kilo.",
+  "heard": "The price is 500 rupees per kilo.",
+  "translation": "దీని ధర కిలోకు 500 రూపాయలు.",
+  "flags": [],
+  "facts": [
+   "₹500"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [
+   "500"
+  ],
+  "numbers_heard": [
+   "500"
+  ],
+  "numbers_kept": [
+   "500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1051,
+  "error": null
+ },
+ {
+  "id": "en03",
+  "src": "en",
+  "tgt": "te",
+  "said": "I need twenty bags of rice by Friday.",
+  "gloss": "I need 20 bags of rice by Friday.",
+  "heard": "I need 20 bags rice by Friday.",
+  "translation": "నాకు శుక్రవారం నాటికి 20 సంచుల బియ్యం కావాలి.",
+  "flags": [],
+  "facts": [
+   "20"
+  ],
+  "asr_edits": 1,
+  "asr_ref_len": 8,
+  "numbers_expected": [
+   "20"
+  ],
+  "numbers_heard": [
+   "20"
+  ],
+  "numbers_kept": [
+   "20"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1213,
+  "error": null
+ },
+ {
+  "id": "en04",
+  "src": "en",
+  "tgt": "te",
+  "said": "Please don't send the goods before the payment.",
+  "gloss": "Please don't send the goods before the payment.",
+  "heard": "Ple don't the goods before the payment.",
+  "translation": "దయచేసి చెల్లింపుకు ముందు వస్తువులను తీసుకోకండి.",
+  "flags": [
+   "negation_lost"
+  ],
+  "facts": [],
+  "asr_edits": 2,
+  "asr_ref_len": 9,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": false,
+  "se2fa_ms": 1217,
+  "error": null
+ },
+ {
+  "id": "en05",
+  "src": "en",
+  "tgt": "te",
+  "said": "My number is nine eight seven six five four three two one zero.",
+  "gloss": "My number is 98765 43210.",
+  "heard": "My number is 9876543210.",
+  "translation": "నా నంబర్ 9876543210.",
+  "flags": [],
+  "facts": [
+   "98765 43210"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "9876543210"
+  ],
+  "numbers_heard": [
+   "9876543210"
+  ],
+  "numbers_kept": [
+   "9876543210"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1172,
+  "error": null
+ },
+ {
+  "id": "en06",
+  "src": "en",
+  "tgt": "te",
+  "said": "The total comes to twelve thousand five hundred rupees.",
+  "gloss": "The total comes to 12,500 rupees.",
+  "heard": "The total comes to 12500 rupees.",
+  "translation": "మొత్తం 12500 రూపాయలు వస్తుంది.",
+  "flags": [],
+  "facts": [
+   "₹12,500"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "12500"
+  ],
+  "numbers_heard": [
+   "12500"
+  ],
+  "numbers_kept": [
+   "12500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1081,
+  "error": null
+ },
+ {
+  "id": "en07",
+  "src": "en",
+  "tgt": "te",
+  "said": "I will not pay more than three hundred rupees.",
+  "gloss": "I will not pay more than 300 rupees.",
+  "heard": "I will not pay more than 300 rupees.",
+  "translation": "నేను 300 రూపాయలకు మించి చెల్లించను.",
+  "flags": [
+   "negation_lost"
+  ],
+  "facts": [
+   "₹300"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [
+   "300"
+  ],
+  "numbers_heard": [
+   "300"
+  ],
+  "numbers_kept": [
+   "300"
+  ],
+  "negation": true,
+  "negation_kept": false,
+  "se2fa_ms": 1231,
+  "error": null
+ },
+ {
+  "id": "en08",
+  "src": "en",
+  "tgt": "te",
+  "said": "Can you deliver it tomorrow morning?",
+  "gloss": "Can you deliver it tomorrow morning?",
+  "heard": "Can you deliver it tomorrow morning?",
+  "translation": "మీరు రేపు ఉదయం దానిని పంపిణీ చేయగలరా?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1010,
+  "error": null
+ },
+ {
+  "id": "en09",
+  "src": "en",
+  "tgt": "te",
+  "said": "The meeting is at four o'clock in the afternoon.",
+  "gloss": "The meeting is at 4 in the afternoon.",
+  "heard": "The meeting is at four o'clock in the afternoon.",
+  "translation": "సమావేశం మధ్యాహ్నం నాలుగు గంటలకు జరుగుతుంది.",
+  "flags": [
+   "number_added"
+  ],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 10,
+  "numbers_expected": [
+   "4"
+  ],
+  "numbers_heard": [],
+  "numbers_kept": [
+   "4"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1024,
+  "error": null
+ },
+ {
+  "id": "en10",
+  "src": "en",
+  "tgt": "te",
+  "said": "We have never had this problem before.",
+  "gloss": "We have never had this problem before.",
+  "heard": "We have never had this problem before.",
+  "translation": "మాకు ఇంతకు ముందెన్నడూ ఈ సమస్య ఎదురుకాలేదు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1160,
+  "error": null
+ },
+ {
+  "id": "en11",
+  "src": "en",
+  "tgt": "te",
+  "said": "Send me two kilos of onions and one litre of oil.",
+  "gloss": "Send me 2 kilos of onions and 1 litre of oil.",
+  "heard": "Send me 2 kilos of onions and 1 liter of oil.",
+  "translation": "నాకు 2 కిలోల ఉల్లిపాయలు మరియు 1 లీటరు నూనె పంపండి.",
+  "flags": [],
+  "facts": [
+   "2 kg",
+   "1 L"
+  ],
+  "asr_edits": 1,
+  "asr_ref_len": 11,
+  "numbers_expected": [
+   "2"
+  ],
+  "numbers_heard": [
+   "2"
+  ],
+  "numbers_kept": [
+   "2"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1420,
+  "error": null
+ },
+ {
+  "id": "en12",
+  "src": "en",
+  "tgt": "te",
+  "said": "Thank you very much, see you next week.",
+  "gloss": "Thank you very much, see you next week.",
+  "heard": "Thank you very much, see you next week.",
+  "translation": "చాలా ధన్యవాదాలు, వచ్చే వారం కలుద్దాం.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1196,
+  "error": null
+ },
+ {
+  "id": "hi01",
+  "src": "hi",
+  "tgt": "te",
+  "said": "नमस्ते, आप कैसे हैं?",
+  "gloss": "Hello, how are you?",
+  "heard": "नमस्ते, आप कैसे हैं?",
+  "translation": "హలో, మీరు ఎలా ఉన్నారు?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1156,
+  "error": null
+ },
+ {
+  "id": "hi02",
+  "src": "hi",
+  "tgt": "te",
+  "said": "इस चावल का दाम पचास रुपये किलो है।",
+  "gloss": "This rice costs 50 rupees a kilo.",
+  "heard": "इस चावल का दाम 50 रुपये किलो है।",
+  "translation": "ఈ బియ్యం ధర కిలోకు 50 రూపాయలు.",
+  "flags": [],
+  "facts": [
+   "₹50"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [
+   "50"
+  ],
+  "numbers_heard": [
+   "50"
+  ],
+  "numbers_kept": [
+   "50"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 4347,
+  "error": null
+ },
+ {
+  "id": "hi03",
+  "src": "hi",
+  "tgt": "te",
+  "said": "मुझे तीन किलो टमाटर चाहिए।",
+  "gloss": "I need 3 kilos of tomatoes.",
+  "heard": "मुझे 3 किलो टमाटर चाहिए।",
+  "translation": "నాకు 3 కిలోల టమోటాలు కావాలి.",
+  "flags": [],
+  "facts": [
+   "3 kg"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 5,
+  "numbers_expected": [
+   "3"
+  ],
+  "numbers_heard": [
+   "3"
+  ],
+  "numbers_kept": [
+   "3"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2633,
+  "error": null
+ },
+ {
+  "id": "hi04",
+  "src": "hi",
+  "tgt": "te",
+  "said": "कुल ढाई हज़ार रुपये हुए।",
+  "gloss": "The total came to 2,500 rupees.",
+  "heard": "कुल 2500 रुपये हुए।",
+  "translation": "మొత్తం రూ. 2500.",
+  "flags": [],
+  "facts": [
+   "₹2,500"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "2500"
+  ],
+  "numbers_heard": [
+   "2500"
+  ],
+  "numbers_kept": [
+   "2500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 4547,
+  "error": null
+ },
+ {
+  "id": "hi05",
+  "src": "hi",
+  "tgt": "te",
+  "said": "मैं कल नहीं आऊँगा।",
+  "gloss": "I will not come tomorrow.",
+  "heard": "मैं कल नहीं आऊँगा।",
+  "translation": "నేను రేపు వచ్చేవాడిని కాదు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 2274,
+  "error": null
+ },
+ {
+  "id": "hi06",
+  "src": "hi",
+  "tgt": "te",
+  "said": "इस दाम पर मैं नहीं बेचूँगा।",
+  "gloss": "I will not sell at this price.",
+  "heard": "इस दाम पर मैं नहीं बेचूँगा।",
+  "translation": "ఈ ధరకు నేను విక్రయించను.",
+  "flags": [
+   "negation_lost"
+  ],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": false,
+  "se2fa_ms": 1411,
+  "error": null
+ },
+ {
+  "id": "hi07",
+  "src": "hi",
+  "tgt": "te",
+  "said": "मेरा नंबर नौ आठ चार आठ शून्य दो दो तीन तीन आठ है।",
+  "gloss": "My number is 98480 22338.",
+  "heard": "मेरा नंबर 9848022338 है।",
+  "translation": "నా నంబర్ 9848022338.",
+  "flags": [],
+  "facts": [
+   "98480 22338"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "9848022338"
+  ],
+  "numbers_heard": [
+   "9848022338"
+  ],
+  "numbers_kept": [
+   "9848022338"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1463,
+  "error": null
+ },
+ {
+  "id": "hi08",
+  "src": "hi",
+  "tgt": "te",
+  "said": "माल सोमवार शाम पाँच बजे पहुँचेगा।",
+  "gloss": "The goods will arrive on Monday at 5 in the evening.",
+  "heard": "माल सोमवार शाम 5 बजे पहुँचेगा।",
+  "translation": "సోమవారం సాయంత్రం 5 గంటలకు సరుకు చేరుకుంటుంది.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "5"
+  ],
+  "numbers_heard": [
+   "5"
+  ],
+  "numbers_kept": [
+   "5"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1253,
+  "error": null
+ },
+ {
+  "id": "hi09",
+  "src": "hi",
+  "tgt": "te",
+  "said": "आप पहले आधे पैसे भेज दीजिए, बाकी डिलीवरी के बाद दीजिए।",
+  "gloss": "Send half the money first, give the rest after delivery.",
+  "heard": "आप पहले आधे पैसे भेज दीजिए, बाक़ डिलीवरी के बाद दीजिए।",
+  "translation": "మీరు మొదటి సగం డబ్బును పంపండి, డెలివరీ తర్వాత మిగిలిన మొత్తాన్ని చెల్లించండి.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 11,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1669,
+  "error": null
+ },
+ {
+  "id": "hi10",
+  "src": "hi",
+  "tgt": "te",
+  "said": "इस महीने की पंद्रह तारीख तक भुगतान करना है।",
+  "gloss": "Payment is due by the 15th of this month.",
+  "heard": "इस महीने की पन्ंद्रह तारीख तक भुगतान करना है।",
+  "translation": "ఈ నెల పదిహేను తేదీ నాటికి చెల్లించాల్సి ఉంటుంది.",
+  "flags": [
+   "number_added"
+  ],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 9,
+  "numbers_expected": [
+   "15"
+  ],
+  "numbers_heard": [],
+  "numbers_kept": [
+   "15"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1460,
+  "error": null
+ },
+ {
+  "id": "hi11",
+  "src": "hi",
+  "tgt": "te",
+  "said": "आपको कितने बोरे चाहिए?",
+  "gloss": "How many bags do you need?",
+  "heard": "आपको कितने बोरे चाहिए?",
+  "translation": "మీకు ఎన్ని సంచులు కావాలి?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1174,
+  "error": null
+ },
+ {
+  "id": "hi12",
+  "src": "hi",
+  "tgt": "te",
+  "said": "मुझे वह रंग पसंद नहीं आया, दूसरा रंग दिखाइए।",
+  "gloss": "I did not like that colour, show me another one.",
+  "heard": "मुझे वह रंग पसंद नहीं आया, दूसरा रंग दिखाए।",
+  "translation": "ఆ రంగును నేను ఇష్టపడలేదు, మరొక రంగును చూపించాను.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 9,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1414,
+  "error": null
+ },
+ {
+  "id": "zh01",
+  "src": "zh",
+  "tgt": "te",
+  "said": "你好，最近怎么样？",
+  "gloss": "Hello, how have you been?",
+  "heard": "你好,最近怎么样Ｂ",
+  "translation": "హలో. మీరు ఎలా ఉన్నారు, బి?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1976,
+  "error": null
+ },
+ {
+  "id": "zh02",
+  "src": "zh",
+  "tgt": "te",
+  "said": "这个大米每公斤五十块。",
+  "gloss": "This rice is 50 yuan per kilo.",
+  "heard": "这个大米每公斤50块。",
+  "translation": "కిలో బియ్యానికి 50 యువాన్.",
+  "flags": [
+   "currency_repaired"
+  ],
+  "facts": [
+   "¥50"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 10,
+  "numbers_expected": [
+   "50"
+  ],
+  "numbers_heard": [
+   "50"
+  ],
+  "numbers_kept": [
+   "50"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2001,
+  "error": null
+ },
+ {
+  "id": "zh03",
+  "src": "zh",
+  "tgt": "te",
+  "said": "我要三公斤西红柿。",
+  "gloss": "I want 3 kilos of tomatoes.",
+  "heard": "我要3公斤西红柿。",
+  "translation": "నాకు 3 కిలోల టమోటాలు కావాలి.",
+  "flags": [],
+  "facts": [
+   "3 kg"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [
+   "3"
+  ],
+  "numbers_heard": [
+   "3"
+  ],
+  "numbers_kept": [
+   "3"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2070,
+  "error": null
+ },
+ {
+  "id": "zh04",
+  "src": "zh",
+  "tgt": "te",
+  "said": "一共两千五百块。",
+  "gloss": "2,500 yuan in total.",
+  "heard": "一共2500块。",
+  "translation": "అంటే 2,500 యువాన్.",
+  "flags": [
+   "currency_repaired"
+  ],
+  "facts": [
+   "¥2,500"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [
+   "2500"
+  ],
+  "numbers_heard": [
+   "2500"
+  ],
+  "numbers_kept": [
+   "2500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1853,
+  "error": null
+ },
+ {
+  "id": "zh05",
+  "src": "zh",
+  "tgt": "te",
+  "said": "我明天不来。",
+  "gloss": "I will not come tomorrow.",
+  "heard": "我明天不来。",
+  "translation": "నేను రేపు రావడం లేదు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 5,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1930,
+  "error": null
+ },
+ {
+  "id": "zh06",
+  "src": "zh",
+  "tgt": "te",
+  "said": "这个价格我不卖。",
+  "gloss": "I will not sell at this price.",
+  "heard": "这个价格我不卖。",
+  "translation": "నేను ఈ ధరను విక్రయించడం లేదు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 1957,
+  "error": null
+ },
+ {
+  "id": "zh07",
+  "src": "zh",
+  "tgt": "te",
+  "said": "我的电话是一三八一二三四五六七八。",
+  "gloss": "My phone number is 138 1234 5678.",
+  "heard": "我的电话是13812345678。",
+  "translation": "నా నంబర్ 13812345678.",
+  "flags": [],
+  "facts": [
+   "138 1234 5678"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 16,
+  "numbers_expected": [
+   "13812345678"
+  ],
+  "numbers_heard": [
+   "13812345678"
+  ],
+  "numbers_kept": [
+   "13812345678"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2170,
+  "error": null
+ },
+ {
+  "id": "zh08",
+  "src": "zh",
+  "tgt": "te",
+  "said": "货物星期一下午五点到。",
+  "gloss": "The goods arrive on Monday at 5 pm.",
+  "heard": "货物星期一下午5点到。",
+  "translation": "సోమవారం సాయంత్రం 5 గంటలకు సరుకు చేరుకుంటుంది.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 10,
+  "numbers_expected": [
+   "5"
+  ],
+  "numbers_heard": [
+   "5"
+  ],
+  "numbers_kept": [
+   "5"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2037,
+  "error": null
+ },
+ {
+  "id": "zh09",
+  "src": "zh",
+  "tgt": "te",
+  "said": "请先付一半的钱，剩下的货到了再付。",
+  "gloss": "Please pay half first, pay the rest when the goods arrive.",
+  "heard": "请先付一半的钱,剩下的获到了再付。",
+  "translation": "దయచేసి మొదట సగం డబ్బు చెల్లించండి, మిగిలినది మాకు వచ్చినప్పుడు చెల్లించబడుతుంది.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 15,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2363,
+  "error": null
+ },
+ {
+  "id": "zh10",
+  "src": "zh",
+  "tgt": "te",
+  "said": "这个月十五号之前要付款。",
+  "gloss": "Payment is due before the 15th of this month.",
+  "heard": "这个月15号之前要付款。",
+  "translation": "ఈ నెల 15వ తేదీలోగా చెల్లింపు చేయాల్సి ఉంటుంది.",
+  "flags": [],
+  "facts": [
+   "15"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 11,
+  "numbers_expected": [
+   "15"
+  ],
+  "numbers_heard": [
+   "15"
+  ],
+  "numbers_kept": [
+   "15"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 2199,
+  "error": null
+ },
+ {
+  "id": "zh11",
+  "src": "zh",
+  "tgt": "te",
+  "said": "你需要多少袋？",
+  "gloss": "How many bags do you need?",
+  "heard": "你需要多少袋7?",
+  "translation": "మీకు ఎన్ని సంచులు అవసరం?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 6,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "se2fa_ms": 1926,
+  "error": null
+ },
+ {
+  "id": "zh12",
+  "src": "zh",
+  "tgt": "te",
+  "said": "我不喜欢这个颜色，给我看看别的颜色。",
+  "gloss": "I don't like this colour, show me another.",
+  "heard": "我不喜欢这个颜色,给我看看别的颜色。",
+  "translation": "నాకు ఈ రంగు ఇష్టం లేదు. నాకు మరో రంగు చూపించు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 16,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "se2fa_ms": 2191,
+  "error": null
+ }
+]

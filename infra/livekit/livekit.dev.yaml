@@ -1,0 +1,16 @@
+# LiveKit for local development (native binary, no Docker).
+# The API key and secret come from .env (scripts/dev.ts passes them as
+# LIVEKIT_KEYS). Never use the public dev keys: this server listens on the
+# LAN so phones on the same Wi-Fi can join.
+port: 7880
+bind_addresses:
+  - ""            # all interfaces: WebRTC clients cannot reach a loopback-only server
+rtc:
+  tcp_port: 7881
+  udp_port: 7882  # single UDP port (mux) is enough for development
+  use_external_ip: false
+logging:
+  level: info
+room:
+  empty_timeout: 300
+  max_participants: 3

@@ -1,0 +1,14 @@
+{
+  "$comment": "Single source of truth for languages and enabled pairs. Read by apps/api, apps/web (via packages/contracts) and services/agent.",
+  "languages": {
+    "te": { "name": "Telugu", "native": "తెలుగు", "script": "Telu", "indictrans": "tel_Telu" },
+    "hi": { "name": "Hindi", "native": "हिन्दी", "script": "Deva", "indictrans": "hin_Deva" },
+    "en": { "name": "English", "native": "English", "script": "Latn", "indictrans": "eng_Latn" },
+    "zh": { "name": "Mandarin", "native": "中文", "script": "Hans", "indictrans": null }
+  },
+  "pairs": [
+    ["te", "en"],
+    ["hi", "te"],
+    ["te", "zh"]
+  ]
+}

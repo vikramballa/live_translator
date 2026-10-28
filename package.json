@@ -1,0 +1,25 @@
+{
+  "name": "live-translator",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "setup": "bun scripts/setup.ts",
+    "dev": "bun scripts/dev.ts",
+    "db:migrate": "cd apps/api && bun run migrate",
+    "build": "cd apps/web && bun run build",
+    "start": "bun scripts/dev.ts --prod",
+    "test": "cd apps/api && bun run test && cd ../../services && uv run pytest -q",
+    "typecheck": "cd apps/api && bun run typecheck && cd ../web && bun run typecheck && cd ../../packages/contracts && bun run typecheck && cd ../../scripts && bunx tsc --noEmit -p .",
+    "lint": "biome check . && cd services && uv run ruff check .",
+    "format": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
+    "@types/bun": "^1.4.3",
+    "typescript": "^7.0.2"
+  }
+}

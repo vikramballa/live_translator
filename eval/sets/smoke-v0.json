@@ -1,0 +1,62 @@
+{
+  "$comment": "Smoke set v0 (2026-10-15). Everyday trader/family sentences. The speaker's audio is synthesised by our own TTS (Piper te, Kokoro hi/en/zh), so ASR scores are OPTIMISTIC: real voices on phones will be worse. Phase 1 replaces this with recorded human speech. Fields: text = what is spoken; gloss = English meaning; numbers = values that must survive into the translation; negation = sentence contains a 'not'.",
+  "directions": [["te", "en"], ["te", "hi"], ["te", "zh"], ["en", "te"], ["hi", "te"], ["zh", "te"]],
+  "sentences": {
+    "te": [
+      {"id": "te01", "text": "నమస్కారం, మీరు ఎలా ఉన్నారు?", "gloss": "Hello, how are you?"},
+      {"id": "te02", "text": "ఈ బియ్యం ధర కిలోకి యాభై రూపాయలు.", "gloss": "This rice costs 50 rupees per kilo.", "numbers": ["50"]},
+      {"id": "te03", "text": "నాకు మూడు కిలోల టమోటాలు కావాలి.", "gloss": "I need 3 kilos of tomatoes.", "numbers": ["3"]},
+      {"id": "te04", "text": "మొత్తం రెండు వేల ఐదు వందల రూపాయలు అయింది.", "gloss": "The total came to 2,500 rupees.", "numbers": ["2500"]},
+      {"id": "te05", "text": "నేను రేపు రాను.", "gloss": "I will not come tomorrow.", "negation": true},
+      {"id": "te06", "text": "ఈ ధరకు నేను అమ్మను.", "gloss": "I will not sell at this price.", "negation": true},
+      {"id": "te07", "text": "నా ఫోన్ నంబర్ తొమ్మిది ఎనిమిది నాలుగు ఎనిమిది సున్నా రెండు రెండు మూడు మూడు ఎనిమిది.", "gloss": "My phone number is 98480 22338.", "numbers": ["9848022338"]},
+      {"id": "te08", "text": "సరుకు సోమవారం సాయంత్రం ఐదు గంటలకు వస్తుంది.", "gloss": "The goods arrive on Monday at 5 in the evening.", "numbers": ["5"]},
+      {"id": "te09", "text": "మీరు ముందుగా సగం డబ్బు పంపండి, మిగతాది డెలివరీ తర్వాత ఇవ్వండి.", "gloss": "Send half the money first, give the rest after delivery."},
+      {"id": "te10", "text": "ఈ నెల పదిహేనో తేదీ లోపు డబ్బు చెల్లించాలి.", "gloss": "The money must be paid before the 15th of this month.", "numbers": ["15"]},
+      {"id": "te11", "text": "మీకు ఎన్ని బస్తాలు కావాలి?", "gloss": "How many bags do you need?"},
+      {"id": "te12", "text": "నాకు ఆ రంగు నచ్చలేదు, వేరే రంగు చూపించండి.", "gloss": "I did not like that colour, show me another one.", "negation": true}
+    ],
+    "en": [
+      {"id": "en01", "text": "Good morning, how is your family?", "gloss": "Good morning, how is your family?"},
+      {"id": "en02", "text": "The price is five hundred rupees per kilo.", "gloss": "The price is 500 rupees per kilo.", "numbers": ["500"]},
+      {"id": "en03", "text": "I need twenty bags of rice by Friday.", "gloss": "I need 20 bags of rice by Friday.", "numbers": ["20"]},
+      {"id": "en04", "text": "Please don't send the goods before the payment.", "gloss": "Please don't send the goods before the payment.", "negation": true},
+      {"id": "en05", "text": "My number is nine eight seven six five four three two one zero.", "gloss": "My number is 98765 43210.", "numbers": ["9876543210"]},
+      {"id": "en06", "text": "The total comes to twelve thousand five hundred rupees.", "gloss": "The total comes to 12,500 rupees.", "numbers": ["12500"]},
+      {"id": "en07", "text": "I will not pay more than three hundred rupees.", "gloss": "I will not pay more than 300 rupees.", "numbers": ["300"], "negation": true},
+      {"id": "en08", "text": "Can you deliver it tomorrow morning?", "gloss": "Can you deliver it tomorrow morning?"},
+      {"id": "en09", "text": "The meeting is at four o'clock in the afternoon.", "gloss": "The meeting is at 4 in the afternoon.", "numbers": ["4"]},
+      {"id": "en10", "text": "We have never had this problem before.", "gloss": "We have never had this problem before.", "negation": true},
+      {"id": "en11", "text": "Send me two kilos of onions and one litre of oil.", "gloss": "Send me 2 kilos of onions and 1 litre of oil.", "numbers": ["2"]},
+      {"id": "en12", "text": "Thank you very much, see you next week.", "gloss": "Thank you very much, see you next week."}
+    ],
+    "hi": [
+      {"id": "hi01", "text": "नमस्ते, आप कैसे हैं?", "gloss": "Hello, how are you?"},
+      {"id": "hi02", "text": "इस चावल का दाम पचास रुपये किलो है।", "gloss": "This rice costs 50 rupees a kilo.", "numbers": ["50"]},
+      {"id": "hi03", "text": "मुझे तीन किलो टमाटर चाहिए।", "gloss": "I need 3 kilos of tomatoes.", "numbers": ["3"]},
+      {"id": "hi04", "text": "कुल ढाई हज़ार रुपये हुए।", "gloss": "The total came to 2,500 rupees.", "numbers": ["2500"]},
+      {"id": "hi05", "text": "मैं कल नहीं आऊँगा।", "gloss": "I will not come tomorrow.", "negation": true},
+      {"id": "hi06", "text": "इस दाम पर मैं नहीं बेचूँगा।", "gloss": "I will not sell at this price.", "negation": true},
+      {"id": "hi07", "text": "मेरा नंबर नौ आठ चार आठ शून्य दो दो तीन तीन आठ है।", "gloss": "My number is 98480 22338.", "numbers": ["9848022338"]},
+      {"id": "hi08", "text": "माल सोमवार शाम पाँच बजे पहुँचेगा।", "gloss": "The goods will arrive on Monday at 5 in the evening.", "numbers": ["5"]},
+      {"id": "hi09", "text": "आप पहले आधे पैसे भेज दीजिए, बाकी डिलीवरी के बाद दीजिए।", "gloss": "Send half the money first, give the rest after delivery."},
+      {"id": "hi10", "text": "इस महीने की पंद्रह तारीख तक भुगतान करना है।", "gloss": "Payment is due by the 15th of this month.", "numbers": ["15"]},
+      {"id": "hi11", "text": "आपको कितने बोरे चाहिए?", "gloss": "How many bags do you need?"},
+      {"id": "hi12", "text": "मुझे वह रंग पसंद नहीं आया, दूसरा रंग दिखाइए।", "gloss": "I did not like that colour, show me another one.", "negation": true}
+    ],
+    "zh": [
+      {"id": "zh01", "text": "你好，最近怎么样？", "gloss": "Hello, how have you been?"},
+      {"id": "zh02", "text": "这个大米每公斤五十块。", "gloss": "This rice is 50 yuan per kilo.", "numbers": ["50"]},
+      {"id": "zh03", "text": "我要三公斤西红柿。", "gloss": "I want 3 kilos of tomatoes.", "numbers": ["3"]},
+      {"id": "zh04", "text": "一共两千五百块。", "gloss": "2,500 yuan in total.", "numbers": ["2500"]},
+      {"id": "zh05", "text": "我明天不来。", "gloss": "I will not come tomorrow.", "negation": true},
+      {"id": "zh06", "text": "这个价格我不卖。", "gloss": "I will not sell at this price.", "negation": true},
+      {"id": "zh07", "text": "我的电话是一三八一二三四五六七八。", "gloss": "My phone number is 138 1234 5678.", "numbers": ["13812345678"]},
+      {"id": "zh08", "text": "货物星期一下午五点到。", "gloss": "The goods arrive on Monday at 5 pm.", "numbers": ["5"]},
+      {"id": "zh09", "text": "请先付一半的钱，剩下的货到了再付。", "gloss": "Please pay half first, pay the rest when the goods arrive."},
+      {"id": "zh10", "text": "这个月十五号之前要付款。", "gloss": "Payment is due before the 15th of this month.", "numbers": ["15"]},
+      {"id": "zh11", "text": "你需要多少袋？", "gloss": "How many bags do you need?"},
+      {"id": "zh12", "text": "我不喜欢这个颜色，给我看看别的颜色。", "gloss": "I don't like this colour, show me another.", "negation": true}
+    ]
+  }
+}

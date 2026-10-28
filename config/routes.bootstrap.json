@@ -1,0 +1,149 @@
+{
+  "$comment": "Hand-written bootstrap routes (v0). Phase 1 eval will generate config/routes.generated.json, which takes precedence when present. All entries are open-source (see docs/licences/REGISTER.md).",
+  "$comment_en_zh": "en<>zh is the second hop of the te<>zh pivot. It is a route (usable from the CLI and tests) but not an enabled call pair in languages.json. en>zh uses M2M100-418M (MIT) run by CTranslate2: on the smoke set it fixed Opus-MT's meaning errors (payment direction, a corrupted phone digit, 'at this price' lost); zh>en stays Opus-MT, which beat opus-mt-tc-bible-big.",
+  "asr": {
+    "te": {
+      "engine": "indic_conformer",
+      "model": "ai4bharat/indic-conformer-600m-multilingual",
+      "decoding": "ctc",
+      "punctuation": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase"
+    },
+    "hi": {
+      "engine": "indic_conformer",
+      "model": "ai4bharat/indic-conformer-600m-multilingual",
+      "decoding": "ctc",
+      "punctuation": "1-800-BAD-CODE/xlm-roberta_punctuation_fullstop_truecase"
+    },
+    "en": {
+      "engine": "parakeet",
+      "model": "istupakov/parakeet-tdt-0.6b-v3-onnx",
+      "quantization": "int8"
+    },
+    "zh": {
+      "engine": "whisper",
+      "model": "Systran/faster-whisper-small",
+      "compute_type": "int8"
+    }
+  },
+  "mt": {
+    "te>en": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-indic-en-dist-200M"
+      }
+    ],
+    "en>te": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-en-indic-dist-200M"
+      }
+    ],
+    "hi>te": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-indic-indic-dist-320M"
+      }
+    ],
+    "te>hi": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-indic-indic-dist-320M"
+      }
+    ],
+    "te>zh": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-indic-en-dist-200M",
+        "to": "en"
+      },
+      {
+        "engine": "m2m100",
+        "model": "facebook/m2m100_418M",
+        "beam": 1
+      }
+    ],
+    "zh>te": [
+      {
+        "engine": "opus_mt",
+        "model": "Helsinki-NLP/opus-mt-zh-en",
+        "to": "en"
+      },
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-en-indic-dist-200M"
+      }
+    ],
+    "en>zh": [
+      {
+        "engine": "m2m100",
+        "model": "facebook/m2m100_418M",
+        "beam": 1
+      }
+    ],
+    "zh>en": [
+      {
+        "engine": "opus_mt",
+        "model": "Helsinki-NLP/opus-mt-zh-en"
+      }
+    ]
+  },
+  "$comment_mt_fallback": "Second route, tried once per sentence when the first one has a critical issue such as a dropped number. Measured 2026-10-14: indic-indic-dist-320M turns 'N रुपये' into 'రూ.' with no number; the English pivot keeps it.",
+  "mt_fallback": {
+    "hi>te": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-indic-en-dist-200M",
+        "to": "en"
+      },
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-en-indic-dist-200M"
+      }
+    ],
+    "te>hi": [
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-indic-en-dist-200M",
+        "to": "en"
+      },
+      {
+        "engine": "indictrans2",
+        "model": "ai4bharat/indictrans2-en-indic-dist-200M"
+      }
+    ]
+  },
+  "tts": {
+    "te": {
+      "engine": "piper",
+      "voice": "te_IN-padmavathi-medium",
+      "hf_path": "te/te_IN/padmavathi/medium"
+    },
+    "hi": {
+      "engine": "kokoro",
+      "voice": "hf_alpha",
+      "lang": "hi"
+    },
+    "en": {
+      "engine": "kokoro",
+      "voice": "af_heart",
+      "lang": "en-us"
+    },
+    "zh": {
+      "engine": "kokoro",
+      "voice": "zf_xiaobei",
+      "lang": "zh"
+    }
+  },
+  "$comment_profiles": "Per-profile overrides. The PROFILE env var selects one; default is m4-local on Apple silicon, contabo-cpu elsewhere. Force PROFILE=contabo-cpu on the Mac to measure what the server will run.",
+  "profiles": {
+    "m4-local": {
+      "asr": {
+        "zh": {
+          "engine": "mlx_whisper",
+          "model": "mlx-community/whisper-large-v3-turbo"
+        }
+      }
+    },
+    "contabo-cpu": {}
+  }
+}

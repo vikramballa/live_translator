@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Noto Sans", "Noto Sans Telugu", "Noto Sans Devanagari", "Noto Sans SC", system-ui,
+    -apple-system, "Segoe UI", Roboto, sans-serif;
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+}
+
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --line: #e2e8f0;
+  --mine: #ccfbf1;
+  --theirs: #ffffff;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1220;
+    --surface: #111a2e;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --line: #1e293b;
+    --mine: #134e4a;
+    --theirs: #111a2e;
+    color-scheme: dark;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Indic scripts need more line height to keep vowel signs readable. */
+.text-indic {
+  line-height: 1.7;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgb(20 184 166 / 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 14px rgb(20 184 166 / 0);
+  }
+}
+.speaking-ring {
+  animation: pulse-ring 1.2s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .speaking-ring {
+    animation: none;
+  }
+}

@@ -1,0 +1,297 @@
+[
+ {
+  "id": "en01",
+  "src": "en",
+  "tgt": "te",
+  "said": "Good morning, how is your family?",
+  "gloss": "Good morning, how is your family?",
+  "heard": "Good morning, how is your family?",
+  "translation": "గుడ్ మార్నింగ్, మీ కుటుంబం ఎలా ఉంది?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1088,
+  "error": null
+ },
+ {
+  "id": "en02",
+  "src": "en",
+  "tgt": "te",
+  "said": "The price is five hundred rupees per kilo.",
+  "gloss": "The price is 500 rupees per kilo.",
+  "heard": "The price is 500 rupees per kilo.",
+  "translation": "దీని ధర కిలోకు 500 రూపాయలు.",
+  "flags": [],
+  "facts": [
+   "₹500"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [
+   "500"
+  ],
+  "numbers_heard": [
+   "500"
+  ],
+  "numbers_kept": [
+   "500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1040,
+  "error": null
+ },
+ {
+  "id": "en03",
+  "src": "en",
+  "tgt": "te",
+  "said": "I need twenty bags of rice by Friday.",
+  "gloss": "I need 20 bags of rice by Friday.",
+  "heard": "I need 20 bags of rice by Friday.",
+  "translation": "నాకు శుక్రవారం నాటికి 20 సంచుల బియ్యం కావాలి.",
+  "flags": [],
+  "facts": [
+   "20"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [
+   "20"
+  ],
+  "numbers_heard": [
+   "20"
+  ],
+  "numbers_kept": [
+   "20"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1177,
+  "error": null
+ },
+ {
+  "id": "en04",
+  "src": "en",
+  "tgt": "te",
+  "said": "Please don't send the goods before the payment.",
+  "gloss": "Please don't send the goods before the payment.",
+  "heard": "Please don't send the goods before the payment.",
+  "translation": "దయచేసి చెల్లింపుకు ముందు వస్తువులను పంపవద్దు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 9,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "latency_ms": 1185,
+  "error": null
+ },
+ {
+  "id": "en05",
+  "src": "en",
+  "tgt": "te",
+  "said": "My number is nine eight seven six five four three two one zero.",
+  "gloss": "My number is 98765 43210.",
+  "heard": "My number is 9876543210.",
+  "translation": "నా నంబర్ 9876543210.",
+  "flags": [],
+  "facts": [
+   "98765 43210"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 4,
+  "numbers_expected": [
+   "9876543210"
+  ],
+  "numbers_heard": [
+   "9876543210"
+  ],
+  "numbers_kept": [
+   "9876543210"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1330,
+  "error": null
+ },
+ {
+  "id": "en06",
+  "src": "en",
+  "tgt": "te",
+  "said": "The total comes to twelve thousand five hundred rupees.",
+  "gloss": "The total comes to 12,500 rupees.",
+  "heard": "The total comes to 12500 rupees.",
+  "translation": "మొత్తం 12500 రూపాయలు వస్తుంది.",
+  "flags": [],
+  "facts": [
+   "₹12,500"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [
+   "12500"
+  ],
+  "numbers_heard": [
+   "12500"
+  ],
+  "numbers_kept": [
+   "12500"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1092,
+  "error": null
+ },
+ {
+  "id": "en07",
+  "src": "en",
+  "tgt": "te",
+  "said": "I will not pay more than three hundred rupees.",
+  "gloss": "I will not pay more than 300 rupees.",
+  "heard": "I will not pay more than 300 rupees.",
+  "translation": "నేను 300 రూపాయలకు మించి చెల్లించను.",
+  "flags": [],
+  "facts": [
+   "₹300"
+  ],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [
+   "300"
+  ],
+  "numbers_heard": [
+   "300"
+  ],
+  "numbers_kept": [
+   "300"
+  ],
+  "negation": true,
+  "negation_kept": true,
+  "latency_ms": 1186,
+  "error": null
+ },
+ {
+  "id": "en08",
+  "src": "en",
+  "tgt": "te",
+  "said": "Can you deliver it tomorrow morning?",
+  "gloss": "Can you deliver it tomorrow morning?",
+  "heard": "Can you deliver it tomorrow morning?",
+  "translation": "మీరు రేపు ఉదయం దానిని పంపిణీ చేయగలరా?",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 6,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1047,
+  "error": null
+ },
+ {
+  "id": "en09",
+  "src": "en",
+  "tgt": "te",
+  "said": "The meeting is at four o'clock in the afternoon.",
+  "gloss": "The meeting is at 4 in the afternoon.",
+  "heard": "The meeting is at 4 o'clock in the afternoon.",
+  "translation": "సమావేశం సాయంత్రం 4 గంటలకు జరుగుతుంది.",
+  "flags": [
+   "number_added"
+  ],
+  "facts": [],
+  "asr_edits": 1,
+  "asr_ref_len": 10,
+  "numbers_expected": [
+   "4"
+  ],
+  "numbers_heard": [],
+  "numbers_kept": [
+   "4"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1104,
+  "error": null
+ },
+ {
+  "id": "en10",
+  "src": "en",
+  "tgt": "te",
+  "said": "We have never had this problem before.",
+  "gloss": "We have never had this problem before.",
+  "heard": "We have never had this problem before.",
+  "translation": "మాకు ఇంతకు ముందెన్నడూ ఈ సమస్య ఎదురుకాలేదు.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 7,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": true,
+  "negation_kept": true,
+  "latency_ms": 1179,
+  "error": null
+ },
+ {
+  "id": "en11",
+  "src": "en",
+  "tgt": "te",
+  "said": "Send me two kilos of onions and one litre of oil.",
+  "gloss": "Send me 2 kilos of onions and 1 litre of oil.",
+  "heard": "Send me 2 kilos of onions and 1 liter of oil.",
+  "translation": "నాకు 2 కిలోల ఉల్లిపాయలు మరియు 1 లీటరు నూనె పంపండి.",
+  "flags": [],
+  "facts": [
+   "2 kg",
+   "1 L"
+  ],
+  "asr_edits": 1,
+  "asr_ref_len": 11,
+  "numbers_expected": [
+   "2"
+  ],
+  "numbers_heard": [
+   "2"
+  ],
+  "numbers_kept": [
+   "2"
+  ],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1387,
+  "error": null
+ },
+ {
+  "id": "en12",
+  "src": "en",
+  "tgt": "te",
+  "said": "Thank you very much, see you next week.",
+  "gloss": "Thank you very much, see you next week.",
+  "heard": "Thank you very much, see you next week.",
+  "translation": "చాలా ధన్యవాదాలు, వచ్చే వారం కలుద్దాం.",
+  "flags": [],
+  "facts": [],
+  "asr_edits": 0,
+  "asr_ref_len": 8,
+  "numbers_expected": [],
+  "numbers_heard": [],
+  "numbers_kept": [],
+  "negation": false,
+  "negation_kept": false,
+  "latency_ms": 1041,
+  "error": null
+ }
+]

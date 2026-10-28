@@ -1,0 +1,24 @@
+[project]
+name = "tts-worker"
+version = "0.1.0"
+description = "Separate text-to-speech program (Piper). Reads JSON requests on stdin, writes PCM on stdout."
+# piper-tts is GPL-3.0 (espeak-ng). It is kept in its own program and
+# virtualenv; the agent only talks to it over a pipe.
+license = "GPL-3.0-or-later"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "piper-tts>=1.3",
+  "numpy>=1.26,<3",
+  "kokoro-onnx>=0.4",
+  "misaki[zh]>=0.9",
+]
+
+[project.scripts]
+tts-worker = "tts_worker.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tts_worker"]

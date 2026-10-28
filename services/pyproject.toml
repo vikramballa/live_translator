@@ -1,0 +1,42 @@
+# uv workspace for the AI plane.
+# The TTS worker is deliberately NOT a member: it uses GPL-licensed
+# phonemizer code (espeak-ng via piper), so it runs as a separate program
+# with its own virtualenv and talks to the agent over stdin/stdout.
+[tool.uv.workspace]
+members = ["pipeline-core", "agent"]
+
+[tool.uv.sources]
+pipeline-core = { workspace = true }
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3",
+  "pytest-asyncio>=0.24",
+  "hypothesis>=6.120",
+  "ruff>=0.8",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+cache-dir = "~/.cache/ruff"  # keep the source tree free of tool caches
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "ARG", "PIE", "RUF"]
+# Chinese and Indic punctuation (，。！) is intended in a multilingual app.
+ignore = ["RUF001", "RUF003"]
+
+[tool.pytest.ini_options]
+testpaths = ["pipeline-core/tests", "agent/tests"]
+pythonpath = ["pipeline-core/src", "agent/src"]
+asyncio_mode = "auto"
+addopts = "-p no:cacheprovider"
+
+[tool.ruff.lint.per-file-ignores]
+# Lexicon tables of Indic/Chinese words are long by nature.
+"pipeline-core/src/pipeline_core/numbers.py" = ["E501"]
+"pipeline-core/src/pipeline_core/facts.py" = ["E501"]
+"**/tests/*" = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pipeline_core", "agent"]

@@ -1,0 +1,58 @@
+# Secrets: only the template is committed
+.env
+.env.*
+!.env.example
+
+# Models (~14 GB). `bun run setup` downloads them into models/
+models/
+
+# JavaScript / Bun
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Logs and runtime leftovers
+logs/
+*.log
+*.pid
+*.part
+*.part.onnx
+
+# Audio and recordings are never committed (privacy)
+eval/recordings/
+*.wav
+*.mp3
+*.ogg
+*.webm
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Project docs are kept local only
+docs/
+
+# Local AI-assistant and tool state
+CLAUDE.md
+.claude/
+.playwright-mcp/
+graphify-out/
